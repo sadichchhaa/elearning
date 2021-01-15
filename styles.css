@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  color: #272D4E;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #BCB8BC;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+  display: inline;
+  color: #272D4E;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14.5px;
+  display: inline;
+}
+
+/* Title */
+
+.title {
+  padding: 0 10%;
+  background-image: url('assets/Web1920–3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Title --> NavBar */
+
+.navbar {
+  padding-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline;
+}
+
+.left-nav {
+  padding: 10px 80px 10px 0;
+}
+
+.logo {
+  font-size: 30px;
+  color: #6EBBEB;
+}
+
+.e-logo {
+  color: black;
+}
+
+.right-nav {
+  float: right;
+  padding: 10px 12px;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: #272D4E;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+/* Title --> Front */
+
+.front {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.left-front {
+  width: 850px;
+}
+
+.ui-search {
+  color: white;
+  padding: 10px 15px 10px 20px;
+  background-color: #272D4E;
+  width: 300px;
+  vertical-align: middle;
+  border-radius: 60px;
+}
+
+.ui-search-icon {
+  padding-left: 100px;
+  position: relative;
+  top: 10px;
+}
+
+.right-front-img {
+  width: 100%;
+  position: relative;
+  top: 30px;
+}
